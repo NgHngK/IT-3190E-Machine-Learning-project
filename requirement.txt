@@ -1,0 +1,8 @@
+gradio==5.29.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.2.6
+matplotlib==3.10.3
+yfinance==0.2.61
+fredapi==0.5.2
+pandas-datareader==0.10.0
