@@ -36,7 +36,7 @@ To run the project locally, follow the steps below:
 
 Once running, the localhost link will appear in your terminal. Open it in your browser to access the application.
 
-Note: These instructions are tailored for Ubuntu. Adjust accordingly if using another operating system.
+Note: These instructions are tailored for Ubuntu. Adjust accordingly if using another operating system. Also, the docker cannot be built when using workspace wifi/ school connection.
 
 # Acknowledgement
 This project is built by a group of students at Hanoi University of Science and Technology, Vietnam. Thanks for the contribution from Hoang Trung Dung, Le Minh Kiet, Le Tam Quang, Nguyen Vu Thuy, Nguyen Tat Hung. These authors contributed equally. The order is arbitrary.
