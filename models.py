@@ -141,7 +141,7 @@ class model():
             return self.date[(self.date.index.year == int(year)) & (self.date.index.month == self.month_dict[month])]
     def plot_model(self,name:str,mode:str):
         model_name=name+" "+mode
-        X_train, X_test, y_train, y_test = train_test_split(self.data.drop(labels='cushing_crude_oil_price',inplace=False,axis=1),self.data['cushing_crude_oil_price'], test_size=0.4, random_state=42)
+        X_train, X_test, y_train, y_test = train_test_split(self.data.drop(labels='cushing_crude_oil_price',inplace=False,axis=1),self.data['cushing_crude_oil_price'], test_size=0.1, random_state=42)
         self.models[model_name.strip()].fit(X_train, y_train)
         y_pred = self.models[model_name.strip()].predict(X_test)
         plot_data=pd.DataFrame({"Predict":y_pred,"Truth":y_test}).sort_index().reset_index()
