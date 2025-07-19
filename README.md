@@ -16,6 +16,8 @@ In this project, we develop multiple machine learning models to predict gas pric
 
 The project is deployed using Gradio and containerized with Docker for easy reproducibility and deployment.
 
+For details, please look at the report named as "ML_report.pdf".
+
 # Getting started 
 To run the project locally, follow the steps below:
 
